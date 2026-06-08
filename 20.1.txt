@@ -1,0 +1,3 @@
+1.Preprocesor CSS to narzędzie, które pozwala pisać CSS w bardziej zaawansowany sposób, a następnie konwertuje go do zwykłego CSS. 
+2. Nesting to jedna z najpotężniejszych cech SCSS. Pozwala pisać CSS z hierarchią. 
+3.Zmienne zmieniają się w jednym miejscu
