@@ -1,0 +1,33 @@
+$success-bg: #00ff3c;
+$success-color: #000000;
+$warning-bg: #f5f107;
+$warning-color: #000000;
+$danger-bg: #fd0015;
+$danger-color: #000000;
+@mixin badge-variant($bg, $color) {
+    background-color: $bg;
+    color: $color;
+}
+.badge {
+display: inline-flex;
+align-items: center;
+gap: 6px;
+padding: 4px 8px;
+border-radius: 12px;
+font-size: 12px;
+}
+.badge-icon {
+font-size: 14px;
+}
+.badge-text {
+line-height: 1;
+}
+.badge-success {
+    @include badge-variant($success-bg, $success-color);
+}
+.badge-warning {
+    @include badge-variant($warning-bg, $warning-color);
+}
+.badge-danger {
+    @include badge-variant($danger-bg, $danger-color);
+}
